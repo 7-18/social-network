@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './App.css'
 import { getUser, getUsers } from './services/api';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
   const [user, setUser] = useState({});
 
   useEffect(() => {
-    getUsers().then(users => setUsers(users.data))
+    // getUsers().then(users => setUsers(users.data))
   }, [])
 
   return (
@@ -32,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
