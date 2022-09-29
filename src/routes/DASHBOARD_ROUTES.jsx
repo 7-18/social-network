@@ -9,7 +9,7 @@ export const DASHBOARD_ROUTES = () => {
     <>
       <Nav />
       <Routes>
-        <Route path="/home/:home" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/users" element={<Users />} />
       </Routes>
       <Copy />
