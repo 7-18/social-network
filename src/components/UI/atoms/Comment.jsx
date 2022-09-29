@@ -1,7 +1,7 @@
 export const Comment = ({ comment }) => {
   return (
     <span>
-      {comment}
+      "{comment}"
     </span>
   )
 }
