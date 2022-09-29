@@ -7,7 +7,7 @@ export const Google = () => {
   return (
     <button className="google" onClick={() => dispatch(LOGIN_WITH_GOOGLE())}>
       <img src={google} />
-      <span>Iniciar sesión con Google</span>
+      <span>Login with Google</span>
     </button>
   )
 }
