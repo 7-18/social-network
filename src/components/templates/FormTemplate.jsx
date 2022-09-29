@@ -6,7 +6,7 @@ export const FormTemplate = ({ formType }) => {
     <div className="form-container">
       <div className="container">
         <picture>
-          <img src={female} />
+          <img src={female} loading="lazy" />
         </picture>
         <Form formType={formType} />
       </div>
