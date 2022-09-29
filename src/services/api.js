@@ -26,7 +26,7 @@ export const getPostByUser = async (id) => {
 };
 
 export const getPostsByTag = async (id) => {
-  const response = await axos.get(url + "tag/" + id + "/post", {
+  const response = await axios.get(url + "tag/" + id + "/post", {
     headers: app_id,
   });
   return response.data;

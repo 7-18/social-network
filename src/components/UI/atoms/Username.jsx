@@ -1,6 +1,6 @@
-export const Username = ({ name }) => {
+export const Username = ({ name, prop}) => {
   return (
-    <div className="username">
+    <div className={prop}>
       {name}
     </div>
   )

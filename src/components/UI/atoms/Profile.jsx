@@ -1,6 +1,6 @@
-export const Profile = ({ src }) => {
+export const Profile = ({ src, prop }) => {
   return (
-    <picture>
+    <picture className={prop}>
       <img src={src} />
     </picture>
   )

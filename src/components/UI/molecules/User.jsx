@@ -17,7 +17,7 @@ export const User = () => {
   return (
     <div className="user">
       <div>
-        <Username name={profile?.displayName} />
+        <Username name={profile?.displayName} prop="username" />
         <Logout />
       </div>
       <Profile src={profile?.photoURL} />
