@@ -10,14 +10,13 @@ export const PostsTemplate = () => {
     getPosts().then(res => setPosts(res.data))
   }, [])
 
-
   return (
     <div className="container">
       <div className="posts">
         {posts?.map(post => (
           <div className="post-container" key={post.id}>
-            <PostUser name={post.owner.firstName + " " + post.owner.lastName} image={post.owner.picture} text={post.text} />
-            <Post content={post.image} likes={post.likes} tags={post.tags} sP={setPosts} />
+            <PostUser name={post.owner.firstName + " " + post.owner.lastName} image={post.owner.picture} text={post.text} userData={post.owner.id} />
+            <Post content={post.image} likes={post.likes} tags={post.tags} sP={setPosts} postId={post.id} />
           </div>
         ))}
       </div>

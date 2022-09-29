@@ -1,0 +1,87 @@
+.modal {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 50px 0;
+}
+
+.modal_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.modal_content {
+  background-color: #e3e3e3;
+  border-radius: 8px;
+  width: 50%;
+  height: 100%;
+  padding: 20px !important;
+}
+
+.close {
+  border-radius: 50%;
+  background-color: #dadada;
+  padding: 5px 15px;
+  cursor: pointer;
+  position: absolute;
+  right: 26%;
+  transition: 0.4s;
+}
+
+.close:hover {
+  background-color: #c7c7c7;
+}
+
+.modal_info {
+  height: 100%;
+  width: 100%;
+  display: block !important;
+}
+
+.modal_profile > img {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 9999px;
+  width: 3rem;
+  height: 3rem;
+  display: inline;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.card {
+  border-radius: 8px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.modal_name {
+  color: rgba(0, 0, 0, 0.8);
+  user-select: none;
+  font-size: 15px;
+}
+
+.comment {
+  padding: 0rem 4.3rem 2rem;
+}
+
+.comments {
+  margin-bottom: 10px;
+}
+
+.modal_user > img {
+  border-radius: 9999px;
+  width: 5rem;
+  height: 5rem;
+  display: inline;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.modal_user,
+.modal_profile {
+  cursor: default !important;
+}
