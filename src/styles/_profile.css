@@ -1,0 +1,90 @@
+header {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  border-bottom: 3px solid rgba(252, 211, 77, 1);
+  background-color: rgba(81, 76, 171, 1);
+}
+
+header a {
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+header a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+header picture > img {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 9999px;
+  width: 2.7rem;
+  height: 2.7rem;
+  display: inline;
+  margin-left: 0.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: -0.5rem;
+}
+
+.username {
+  color: rgba(255, 255, 255, 1);
+  line-height: 1;
+  user-select: none;
+}
+
+header small {
+  color: rgba(252, 211, 77, 1);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+header small:hover {
+  color: rgba(252, 211, 77, 0.8);
+}
+
+.user {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.user > div {
+  text-align: right;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  letter-spacing: 0.25rem;
+  font-size: 40px;
+  font-family: cursive;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navigation {
+  line-height: 2rem;
+  display: flex;
+}
+
+.navigation > div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+}
+
+.navigation > div > a {
+  font-weight: 300;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.navigation > div > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}

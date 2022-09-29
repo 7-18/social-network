@@ -5,9 +5,6 @@ export const Home = () => {
   const dispatch = useDispatch()
   return (
     <>
-      <div>
-        Hola
-      </div>
       <button onClick={() => dispatch(LOGOUT_USER_FIREBASE())}>
         Desconectar
       </button>

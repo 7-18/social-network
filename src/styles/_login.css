@@ -4,11 +4,12 @@
   justify-content: center;
 }
 
-h3 {
+.form-container h3 {
   font-size: 40px;
   font-family: cursive;
   cursor: pointer;
   user-select: none;
+  margin-bottom: 25px;
 }
 
 .form-container div.container {

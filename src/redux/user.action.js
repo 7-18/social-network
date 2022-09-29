@@ -26,7 +26,7 @@ export const REGISTER_USER_WITH_EMAIL = (name, email, password) => {
         await updateProfile(auth.currentUser, {
           displayName: name,
           photoURL:
-            "https://images.pexels.com/photos/2698465/pexels-photo-2698465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4MDA4MjAyMDA5NzgxNTIx/brock-lesnar-retires-ufcjpg.jpg",
         });
         dispatch(register_user(name, email, password));
       })
