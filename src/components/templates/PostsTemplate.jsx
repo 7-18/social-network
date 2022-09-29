@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { getPosts } from "../../services/api"
+import { Spinner } from "../UI/atoms/Spinner"
 import { PostUser } from "../UI/molecules/PostUser"
 import { Post } from "../UI/organism/Post"
 
@@ -9,6 +10,8 @@ export const PostsTemplate = () => {
   useEffect(() => {
     getPosts().then(res => setPosts(res.data))
   }, [])
+
+  if (posts.length === 0) return <Spinner />
 
   return (
     <div className="container">

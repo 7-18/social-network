@@ -3,7 +3,7 @@ export const Copy = () => {
   return (
     <div className="copy">
       <div>
-        <p>&copy; {year} ct-zSc @XPMj. All rights reserved</p>
+        <p>&copy; {year} 7-18. All rights reserved</p>
       </div>
     </div>
   )
