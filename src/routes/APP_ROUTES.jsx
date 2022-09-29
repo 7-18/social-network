@@ -35,7 +35,7 @@ export const APP_ROUTES = () => {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/login"
+          path="/"
           element={
             <PUBLIC_ROUTES isAuthenticated={isLogged}>
               <Login />
@@ -51,7 +51,7 @@ export const APP_ROUTES = () => {
           }
         />
         <Route
-          path="/*"
+          path="/home"
           element={
             <PRIVATE_ROUTES isAuthenticated={isLogged}>
               <DASHBOARD_ROUTES />
