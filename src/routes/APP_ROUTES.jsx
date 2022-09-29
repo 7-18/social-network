@@ -51,7 +51,7 @@ export const APP_ROUTES = () => {
           }
         />
         <Route
-          path="/home"
+          path="/*"
           element={
             <PRIVATE_ROUTES isAuthenticated={isLogged}>
               <DASHBOARD_ROUTES />
