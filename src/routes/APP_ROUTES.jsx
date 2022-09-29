@@ -35,7 +35,7 @@ export const APP_ROUTES = () => {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/"
+          path="/login"
           element={
             <PUBLIC_ROUTES isAuthenticated={isLogged}>
               <Login />
