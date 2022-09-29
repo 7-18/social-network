@@ -69,3 +69,9 @@ button:focus-visible {
   display: flex;
   justify-content: center;
 }
+
+.spinner {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+}

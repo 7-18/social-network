@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import { Login } from './components/pages/Login'
+import { Provider } from 'react-redux'
 import './index.css'
+import { store } from './redux/store'
+import { APP_ROUTES } from './routes/APP_ROUTES'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Login />
-  </React.StrictMode>
+  <Provider store={store}>
+    <APP_ROUTES />
+  </Provider>
 )

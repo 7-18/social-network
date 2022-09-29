@@ -28,7 +28,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #8e8e8e;
+  border: 1px solid #d1d1d1;
 }
 
 .form-container .label-container {
@@ -115,7 +115,7 @@ input:focus {
   font-size: 15px;
 }
 
-.question span > span {
+.question span > a {
   color: #f14;
   font-weight: 600;
   cursor: pointer;
